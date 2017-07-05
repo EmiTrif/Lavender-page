@@ -1,0 +1,40 @@
+.tab-panels ul li{
+  display: inline-block;
+  list-style-type: none;
+  margin:0;
+  padding:3px 10px;
+  border-radius:10px 10px 0 0;
+  cursor:pointer;
+  background-color:#F6F6F6;
+}
+.tab-panels ul li:hover{
+  background-color:#F9F9F9;
+  color:#A5A4F7;
+}
+
+.tab-panels ul li.active{
+  background-color:#F9F9F9;
+  color:#A5A4F8;
+}
+
+.tab-panels .panel{
+    background-color: #F6F6F6;
+    height:350px;
+    display: none;
+}
+.tab-panels .panel.active{
+  display: block;
+}
+.pic{
+  height:100%;
+  width:auto;
+  border:2px solid;
+  border-color:blue;
+}
+
+.title{
+  font-family: 'Raleway', sans-serif;
+  color:#A4A5F9;
+}
+
+
